@@ -16,18 +16,18 @@ Desenvolvida para estudo simples de uma API Rest.
 Para rodar o projeto é necessário ter instalado o Docker e Docker Compose.
 
 1. Clone o repositório:
-
+```bash
 git clone https://github.com/inacioiso/CRUD-basico.git
 cd CRUD-basico
-
+```
 2.Crie o seu próprio arquivo .env:
-
+```bash
 cp .env.example .env
-
+```
 3.Suba os containers:
-
+```bash
 docker compose up --build
-
+```
 ## Endpoints da API
 
 | Método | Rota | Descrição |
